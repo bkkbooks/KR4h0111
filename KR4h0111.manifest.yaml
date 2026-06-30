@@ -1,0 +1,104 @@
+canonical_identifier: bkk:krp/KR4h0111/v1
+canonical_location: https://kanripo.org/bkk/KR4h0111/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 唐宋元名表
+  date: '2015-08-25 00:37:39.897597'
+  source:
+    repository: kanripo
+    path: KR4h0111
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4h0111_000.yaml, hash: 'sha256:85e36c99c0b9a15aefa095b211ee8f0da35091d495e08e3273c22304ebe44bdb'}
+  - {seq: 1, filename: KR4h0111_001.yaml, hash: 'sha256:db4c90f09de461b51ef07217fef128feae57eaf437044e4c7718fa5d6012a9cb'}
+  - {seq: 2, filename: KR4h0111_002.yaml, hash: 'sha256:7e55d00239c084ec899e58049ec132d3bee38e40224d829822ea2b9772887fdf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4h0111_000.markers.yaml, hash: 'sha256:0d3006b1a165ccfd65696e7ac4f106877478c55bcb3b44fd33d3360123f5b8bc'}
+  - {seq: 1, role: markers, filename: assets/KR4h0111_001.markers.yaml, hash: 'sha256:133df1b5f1ee65d4d9678d351fcb88b8c841cf5c32dadeedbafd991dc1261b8c'}
+  - {seq: 2, role: markers, filename: assets/KR4h0111_002.markers.yaml, hash: 'sha256:7c7059fbf9e6ddb36a73341a4390c2adf58ceced570fc6d23e0518f76f9250e6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4h0111_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 382
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4h0111_WYG_000-3a
+    span:
+    - body
+    - 382
+    - 913
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4h0111_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 18545
+  label: 卷上之一
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4h0111_WYG_001-62a
+    span:
+    - body
+    - 18545
+    - 36078
+  label: 卷上之二
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4h0111_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 17536
+  label: 卷下之一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4h0111_WYG_002-60a
+    span:
+    - body
+    - 17536
+    - 34354
+  label: 卷下之二
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4h0111_WYG_002-114a
+    span:
+    - body
+    - 34354
+    - 40113
+  label: 卷下之三
+  type: section
+  level: 1
+hash: sha256:280a656f0fb1eb26bcc2fd64d6fbbad87747be37e6f56445752b905002ecdde6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
